@@ -1,7 +1,7 @@
 # Lesson 10: Directory Traversal
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/10-directory-traversal](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/10-directory-traversal)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/10-directory-traversal](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/10-directory-traversal/challenges)*
 
 ## Introduction
 
@@ -32,12 +32,14 @@ so we need to find new ways to read the `flag.txt` file.
 If do some research about `Directory Traversal`, we will find some tools that can help us to find all the paths in the website. by bruteforcing.
 
 one of these tools is `dirsearch`. you can find it [here](https://github.com/maurosoria/dirsearch). follow the instructions in the `README.md` file to install it.
+![alt](../assets/CybertTalents/search/1.png)
 
 After running `dirsearch`, we will find that there is a directory called `files`.
 
 if we hit the `files` directory, we will find lots of files, but no `flag.txt` file.
 
-we could try `fils../` to go back to the parent directory, but we will a punch of different directories.
+we could try `files../` to go back to the parent directory, but we will a punch of different directories.
+![alt](../assets/CybertTalents/search/1.png)
 
 one of these directories is `home`, and if we hit the `home` directory, we will find a `flag.txt` file.
 

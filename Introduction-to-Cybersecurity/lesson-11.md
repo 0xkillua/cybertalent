@@ -1,7 +1,7 @@
 # Lesson 11: Sensitive Data Exposure
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/11-sensitive-data-exposure](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/ssensitive-data-exposure)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/11-sensitive-data-exposure](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/sensitive-data-exposure)*
 
 ## Introduction
 
@@ -20,6 +20,7 @@ In this lesson, we will learn about Sensitive Data Exposure, how can we find som
 ## Solution
 
 In this challenge, we have a website, and we need to find a way to get the flag.
+![alt](../assets/CybertTalents/maximum/1.png)
 
 If we take a look at the home page of the website, we will find a link to the `flag.php` file, so let's take a look at it.
 
@@ -31,6 +32,7 @@ You can't view this flag directly.
 So, we can't view the flag directly, we need to find a way to view the full source code of the php file.
 
 We Could try to use directory enumeration any other helpful paths.
+![alt](../assets/CybertTalents/maximum/2.png)
 
 aAfter some enumeration, we will find theses paths:
 

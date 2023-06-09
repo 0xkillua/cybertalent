@@ -1,7 +1,7 @@
 # Lesson 5: Cookies
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/5-cookies](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/5-cookies)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/5-cookies](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/sql-injection/challenges)*
 
 ## Introduction
 
@@ -26,6 +26,8 @@ if we try to login with a random username and password, we will get a message th
 
 if we look at the source code of the login page, we will find a forgotten comment that says
 
+![alt](../assets/CybertTalents/cookies/1.png)
+
 ```html
 <!-- TODO: remove this line ,  for maintenance purpose use this info (user:support password:x34245323)-->
 ```
@@ -46,6 +48,7 @@ if we look at the cookies of the website, we will find a cookie called `role` th
 so we can try to change the value of the `role` cookie to `admin` and see what happens.
 
 if we change the value of the `role` cookie to `admin` and refresh the page, we will get a message that tells us
+![alt](../assets/CybertTalents/cookies/2.png)
 
 ```html
 <h1>Hi admin</h1>

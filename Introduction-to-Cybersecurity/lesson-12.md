@@ -1,7 +1,7 @@
 # Lesson 12: Burp Suite
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/burp-suite](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/burp-suite)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/burp-suite](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/burp-suite/challenges)*
 
 ## Introduction
 
@@ -48,12 +48,15 @@ After sending the request, we will a single-line html page that says:
 ```html
 Session not found in data/session_store.txt
 ```
-
+![alt](../assets/CybertTalents/cookie-r/1.png)
 Now We now that the website is using a file called `data/session_store.txt` to store the sessions, so we need to find a way to get a valid session ID.
 
 If we sent a request to `data/session_store.txt`, we will get a list of sessions, and we can try to use one of them.
 
-After sending the request, we will get a list of sessions, and we can try to use one of them. and send it to th `getcurrentuserinfo.php` file, and we will get some information about the user.
+After sending the request, we will get a list of sessions
+
+![alt](../assets/CybertTalents/cookie-r/2.png)
+, and we can try to use one of them. and send it to th `getcurrentuserinfo.php` file, and we will get some information about the user.
 
 ```bash
 curl --form "PHPSESSID=[ANY_OF_THE_GIVEN_SESSION_IDS]" http://[YOUR_CHALLANGE_URL]/getcurrentuserinfo.php

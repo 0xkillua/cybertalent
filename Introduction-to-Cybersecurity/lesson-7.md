@@ -28,6 +28,7 @@ In this lesson, we will learn about Encoding, some of the most common Encoding t
 ## Solution
 
 In this challenge, we Need to spin up the given website, we will be presented with a login page, so we will try to login with some random credentials, and we will get nothing.
+![alt](../assets/CybertTalents/whoami/1.png)
 
 if we take a look at the source code of the page, we will find the following comment:
 
@@ -50,7 +51,9 @@ Access Denied. You have no admin priviliges, Please login with an administrator 
 
 If we take a look at the cookies, we will find a cookie called `Authentication` that has a value of `bG9naW49R3Vlc3Q%3D`.
 
-if we decode the value of the cookie using base64, we will get `login=Guest7`.
+if we decode the value of the cookie using base64  [this website](https://www.base64decode.org/), we will get `login=Guest7`.
+
+![alt](../assets/CybertTalents/whoami/2.png)
 
 so we can try to change the value of the cookie to `login=admin`, encode it using base64, and see what happens.
 

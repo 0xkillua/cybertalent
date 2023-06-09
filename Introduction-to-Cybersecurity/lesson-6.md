@@ -1,7 +1,7 @@
 # Lesson 6: Hashing
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/6-hashing](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/6-hashing)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/6-hashing]https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/6-hashing/challenges)*
 
 ## Introduction
 
@@ -26,13 +26,13 @@ Hashing is a one-way function that takes a string of any length and returns a fi
 
 In This challenge, we need to find the original password. We have a corrupted hash password and a note that says that the password is the sha-1 of the hash result. So, we need to find the sha-1 of the hash result.
 
-So We First need to find the hash result. but first, we need to know the hashing algorithm. We can use [this website](https://hashes.com/en/tools/hash_identifier) to identify the hashing algorithm.
+So We First need to find the hash result. but first, we need to know the hashing algorithm. We can use [this website](https://hashes.com/en/decrypt/hash) to identify the hashing algorithm.
 
 if we paste the hash in the website, we will get a message that tells us that the hashing algorithm is `SHA-256`.
-
-Now we need to decrypt the hash. We can use [this website](https://md5decrypt.net/en/Sha256/) to decrypt the hash.
+ 
 
 if we paste the hash in the website, we will get a message that tells us that the hash result is `s3cr3tpassword`.
+![alt](../assets/CybertTalents/hash/1.png)
 
 Now we need to find the sha-1 of the hash result. We can use [this website](https://md5decrypt.net/en/Sha1/) to find the sha-1 of the hash result.
 

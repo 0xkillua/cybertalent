@@ -1,7 +1,7 @@
 # Lesson 2: Introduction to Web Security
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/2-introduction-to-web-security](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/2-introduction-to-web-security)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/2-introduction-to-web-security](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/2-introduction-to-web-security/challenges)*
 
 ## Introduction
 
@@ -19,7 +19,7 @@ In this lesson, we will learn about Web Security, what are the most common Jobs 
 
 ## Solution
 
-In this challenge, we just need to do some research about `Cyber Security Conferences` and we will find that `DEF CON` is the largest gathering for Hackers in the whole world.
+In this challenge, we just need to do some research about `Cyber Security Conferences` and we will find that `DEF CON` is the largest gathering for Hackers in the whole world,So Flag is `defcon`.
 
 ## References
 

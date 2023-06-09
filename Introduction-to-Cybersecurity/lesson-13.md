@@ -1,7 +1,7 @@
 # Lesson 13: Command Injection
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/13-command-injection](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/13-command-injection)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/13-command-injection](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/13-command-injection/challenges)*
 
 ## Introduction
 
@@ -30,7 +30,7 @@ Lets try to send this payload to the website:
 ```html
 admin&pwd&@admin.com
 ```
-
+![alt](../assets/CybertTalents/pwd/1.png)
 After sending the request, we will get a response that says:
 
 ```html
@@ -50,7 +50,7 @@ After sending the request, we will get a response that says:
 ```html
 emails_secret_1337.txt hgdr64.backup.tar.gz index.php
 ```
-
+![alt](../assets/CybertTalents/pwd/1.png)
 And Yah ! we got the backup file name.
 
 ## Flag

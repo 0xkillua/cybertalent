@@ -1,7 +1,7 @@
 # Lesson 3: HTML
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/3-html](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/3-html)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/3-html](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/3-html/submissions)*
 
 ## Introduction
 

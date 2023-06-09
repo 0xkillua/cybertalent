@@ -1,7 +1,7 @@
 # Lesson 9: XSS
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/9-xss](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/9-xss)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/9-xss](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/9-xss/challenges)*
 
 ## Introduction
 
@@ -24,6 +24,8 @@ In this challenge, we have a simple search website, it has a search box, and whe
 Now, we need to find a way to get the cookie, so we can do that by using `XSS`.
 
 so, we will try to inject some `XSS` payload in the search box, like this:
+
+![alt](../assets/CybertTalents/legend/1.png)
 
 ```html
 <script>alert("xss")</script>

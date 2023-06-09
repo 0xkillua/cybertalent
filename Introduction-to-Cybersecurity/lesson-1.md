@@ -1,7 +1,7 @@
 # Lesson 1: Introduction to CTF
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/1-introduction-to-ctf](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/1-introduction-to-ctf)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/1-introduction-to-ctf](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/1-introduction-to-ctf/challenges)*
 
 ## Introduction
 
