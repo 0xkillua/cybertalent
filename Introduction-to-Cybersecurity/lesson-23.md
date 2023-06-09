@@ -44,15 +44,15 @@ After opening the file in `ghidra`, we will find all the functions in the file i
 
 after stpping through the code, we will find the following function `FUN_00401180` which is main function.
 
-![main function](../../../assets/CybertTalents/Finf-The-Pass/main.png)
+![main function](../assets/CybertTalents/Finf-The-Pass/main.png)
 
 after stepping through the code, we will find the following function `FUN_00401100` which is the function that validates the input.
 
-![validate function](../../../assets/CybertTalents/Finf-The-Pass/validate.png)
+![validate function](../assets/CybertTalents/Finf-The-Pass/validate.png)
 
 after stepping through the code, we will find the following function `s_elite_004020f8` which is the hardcoded password.
 
-![hardcoded password](../../../assets/CybertTalents/Finf-The-Pass/password.png)
+![hardcoded password](../assets/CybertTalents/Finf-The-Pass/password.png)
 
 No let's construct the flag, first we need to convert the addresses to hex.
 

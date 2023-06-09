@@ -1,7 +1,7 @@
 # Lesson 20: Wireshark
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/20-wireshark](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/20-wireshark)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/20-wireshark](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/20-wireshark/challenges)*
 
 ## Introduction
 
@@ -42,6 +42,8 @@ After a quick google search, we can find that the tool is called `wireshark`.
 We can use `wireshark` to open the `pcap` file, and then we can filter the packets by `http` to see the HTTP requests.
 
 lets go through the requests and responses, We can see that the flag is in the `GET` request to `/f14g/analyze_packet_for_fun HTTP/1.1\r\n`.
+
+![alt](../assets/CybertTalents/wireshark/1.png)
 
 ## Flag 2
 

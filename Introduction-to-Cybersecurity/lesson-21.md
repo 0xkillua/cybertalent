@@ -1,7 +1,7 @@
 # Lesson 21: Netcat
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/21-netcat](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/21-netcat)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/21-netcat](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/21-netcat*
 
 ## Introduction
 
@@ -63,7 +63,7 @@ nc localhost 7070 < encrypted_image
 
 Now we can open the `decryptData` file and we can see the image. this is the image:
 
-![image](../../../assets/CybertTalents/Cypher-Anxiety/decryptData)
+![image](../assets/CybertTalents/Cypher-Anxiety/decryptData)
 
 How cute!
 

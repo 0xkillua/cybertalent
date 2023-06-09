@@ -1,7 +1,7 @@
 # Lesson 17: Meta data
 
 > Lesson Link:\
-> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/17-meta-data](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/17-meta-data)*
+> *[https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/17-meta-data](https://cybertalents.com/learn/introduction-to-cybersecurity/units/t-introduction-to-cybersecurity/lessons/17-meta-data/challenges)*
 
 ## Introduction
 
@@ -26,6 +26,9 @@ So, Lets open the page source, and we will find that it is not just a single ima
 They are the same, but the hidden image has some metadata, so lets open it with `exiftool`, and we will find the flag.
 
 if we open the first image with `exiftool`, we will get this output:
+
+![alt](../assets/CybertTalents/keep/1.png)
+
 
 ```bash
 $ exiftool the_eye.jpeg 

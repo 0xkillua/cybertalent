@@ -25,7 +25,7 @@ Now, we need to find a way to get the cookie, so we can do that by using `XSS`.
 
 so, we will try to inject some `XSS` payload in the search box, like this:
 
-![alt](../assets/CybertTalents/legend/1.png)
+![alt](../assets/CybertTalents/xss/1.png)
 
 ```html
 <script>alert("xss")</script>
