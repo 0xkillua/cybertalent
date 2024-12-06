@@ -15,8 +15,7 @@ Morse code is a method used in telecommunication to encode text characters as st
 ---
 
 > Description:\
-> *Can you decode the wired sounds?*\
-> *Flag format: flag{X XX XXXXXXXX XXXXXX XXXX XXXXXX}*
+> *My sales manager was annoyed by this sound. However my accountant thought it might mean something. Can you figure it out? P.S: submit flag in a single string
 
 ## Solution
 
@@ -25,9 +24,10 @@ In this challenge, we are given a .wav file. and we need to decode the morse cod
 We Can use [this](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) website to decode the morse code.
 
 After uploading the file, playing it, the website will decode the morse code to text. and we will get the following text:
+![alt](../assets/CybertTalents/Louder/Louder.png)
 
 ```text
-THE FLAG IS I AM SPEAKING LOUDER THAN BEFORE
+FLAGISAWEIRDSOUNDTHATMEANSSOMETHING
 ```
 
 We can construct the flag from the text.
