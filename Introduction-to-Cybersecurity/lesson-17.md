@@ -98,7 +98,7 @@ As we can see, the second image has some metadata, and the flag is in the `Right
 
 ## Flag
 
-> {S1mpl3sty_i$_th_@nswer}
+ `{S1mpl3sty_i$_th_@nswer}`
 
 ## Resources
 
