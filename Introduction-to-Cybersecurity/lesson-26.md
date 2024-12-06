@@ -34,8 +34,7 @@ We can construct the flag from the text.
 
 ## Flag
 
-> flag{I AM SPEAKING LOUDER THAN BEFORE}
-
+> FLAGISAWEIRDSOUNDTHATMEANSSOMETHING
 ## References
 
 - [https://morsecode.world/international/translator.html](https://morsecode.world/international/translator.html)
