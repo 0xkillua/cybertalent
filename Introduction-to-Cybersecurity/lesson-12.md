@@ -90,7 +90,7 @@ Flag: sessionareawesomebutifitsecure
 
 ## Flag
 
-> sessionareawesomebutifsecure
+> sessionareawesomebutifitsecure
 
 ## References
 
